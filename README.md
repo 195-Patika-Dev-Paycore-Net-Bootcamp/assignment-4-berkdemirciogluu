@@ -79,6 +79,11 @@ end loop
 </p>
 <p align="center"> Figure 8. Failed Result </p>
 
+## References 
+- McCaffrey , Dr. James. "K-Means Data Clustering Using C#" Visual Studio Magazine, https://visualstudiomagazine.com/Articles/2013/12/01/K-Means-Data-Clustering-Using-C.aspx?m=2&Page=1. Accessed 09 Sep. 2022.
+- VanderPlas, J. (2017). Python Data Science Handbook. O’Reilly Media, Inc.
+- Albon, C. (2018). Machine Learning with Python Cookbook Practical Solutions from Preprocessing to Deep Learning. O’Reilly Media, Inc.
+
 
 
 
