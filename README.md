@@ -58,11 +58,32 @@ end loop
 <p align="center"> Figure 5. Final Clustering Update </p>
 
 ## GetOptimizedContainersUsingKMeans Method
-The aim of this method is that the clustering of the containers that belong to the specified vehicle is optimized using the K-Means algorithm.
+- The aim of this method is that the clustering of the containers that belong to the specified vehicle is optimized using the K-Means algorithm.
+- The Gaussian normalization is used in the data normalization process.
+- The Euclidean distance method is used to calculate the distance between each data and the cluster means.
+- For successful procedure, this method returns HTTP 200 Status Code.
+- For any failure of procedure, this method returns HTTP 400 Status Code. 
+- Each step of this method is explained in detail within by using comment lines.
 <p align="center">
   <img src="https://github.com/195-Patika-Dev-Paycore-Net-Bootcamp/assignment-4-berkdemirciogluu/blob/master/images/swaggerentrance.png"/>
 </p>
-<p align="center"> Figure 6. GetOptimizedContainersUsingKMeans Method </p>
+<p align="center"> Figure 6. GetCLusteredContainersUsingKMeans Method </p>
+
+<p align="center">
+  <img src="https://github.com/195-Patika-Dev-Paycore-Net-Bootcamp/assignment-4-berkdemirciogluu/blob/master/images/successresult.png"/>
+</p>
+<p align="center"> Figure 7. Successful Result </p>
+
+<p align="center">
+  <img src="https://github.com/195-Patika-Dev-Paycore-Net-Bootcamp/assignment-4-berkdemirciogluu/blob/master/images/errorresult.png"/>
+</p>
+<p align="center"> Figure 8. Failed Result </p>
+
+
+
+
+
+
 
 
 
