@@ -6,16 +6,17 @@ namespace WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class OptimizedClusteredContainersController : ControllerBase
+    public class ContainersOptimizationController : ControllerBase
     {
         IContainerService _containerService; //To avoid instance generation process everytime,injection was implemented.
 
-        public OptimizedClusteredContainersController(IContainerService containerService)
+        public ContainersOptimizationController(IContainerService containerService)
         {
             _containerService = containerService;
         }
 
-        [HttpGet]
+        [HttpGet("GetCLusteredContainersUsingKMeans")]
+        // The clustering of the containers that belong to the specified vehicle is optimized using K-Means algorithm.
         public IActionResult GetOptimizedContainers(long vehicleId, int clusterNumber)
         {
             var result = _containerService.GetOptimizedContainers(vehicleId, clusterNumber);
