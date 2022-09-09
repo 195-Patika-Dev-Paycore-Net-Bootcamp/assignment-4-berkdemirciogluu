@@ -15,13 +15,49 @@ It is important to note three things about k-means:
 - All features are equally scaled. <br>
 - The groups are balanced (i.e., have roughly the same number of observations). <br>
 
-In pseudo-code, k-means is: <br> <br>
-initialize clustering <br>
-loop until done <br>
-&nbsp; &nbsp; compute mean of each cluster <br>
-&nbsp; &nbsp; update clustering based on new means <br>
-end loop <br> <br>
-Figure 1 represents an initial clustering of data. Visually, each data point is colored red, yellow or green to indicate cluster membership. <br>
-resim1 
+## Visual Explanation of the Logic Behind K-Means Algorithm 
+
+In pseudo-code, k-means is: <br> 
+
+```
+initialize clustering 
+loop until done
+  compute mean of each cluster
+  update clustering based on new means
+end loop
+```
+
+- Figure 1 shows how the data were initially clustered. Each data point is visually colored red, yellow, or green to denote membership in a cluster. <br> <br>
+<p align="center">
+  <img src="https://github.com/195-Patika-Dev-Paycore-Net-Bootcamp/assignment-4-berkdemirciogluu/blob/master/images/initialclustering.jpg"/>
+</p>
+<p align="center"> Figure 1. Initial Random Clustering </p>
+
+- The three colored circles in Figure 2 represent the means of each of the three clusters, which have been computed.
+<p align="center">
+  <img src="https://github.com/195-Patika-Dev-Paycore-Net-Bootcamp/assignment-4-berkdemirciogluu/blob/master/images/initialclustermeans.jpg"/>
+</p>
+<p align="center"> Figure 2. Initial Cluster Means </p>
+
+- Each data tuple in Figure 3 is analyzed and positioned in the cluster that is closest to its corresponding mean.
+<p align="center">
+  <img src="https://github.com/195-Patika-Dev-Paycore-Net-Bootcamp/assignment-4-berkdemirciogluu/blob/master/images/clusteringupdated.jpg"/>
+</p>
+<p align="center"> Figure 3. Clustering Updated </p>
+
+- In Figure 4, the new cluster means have been computed.
+<p align="center">
+  <img src="https://github.com/195-Patika-Dev-Paycore-Net-Bootcamp/assignment-4-berkdemirciogluu/blob/master/images/newmeanscalculated.jpg"/>
+</p>
+<p align="center"> Figure 4. New Means Computed </p>
+
+- The clustering has been modified in Figure 5. The clustering has stabilized, as you can see. The best solution is not ensured by the k-means method. The algorithm often reaches a solution quite rapidly, though.
+<p align="center">
+  <img src="https://github.com/195-Patika-Dev-Paycore-Net-Bootcamp/assignment-4-berkdemirciogluu/blob/master/images/finalclusteringupdated.jpg"/>
+</p>
+<p align="center"> Figure 5. Final Clustering Update </p>
+
+
+
 
 
