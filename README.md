@@ -15,7 +15,7 @@ It is important to note three things about k-means:
 - All features are equally scaled. <br>
 - The groups are balanced (i.e., have roughly the same number of observations). <br>
 
-## Visual Explanation of the Logic Behind K-Means Algorithm 
+## Visual Explanation of the Logic Behind the K-Means Algorithm 
 
 In pseudo-code, k-means is: <br> 
 
@@ -56,6 +56,14 @@ end loop
   <img src="https://github.com/195-Patika-Dev-Paycore-Net-Bootcamp/assignment-4-berkdemirciogluu/blob/master/images/finalclusteringupdated.jpg"/>
 </p>
 <p align="center"> Figure 5. Final Clustering Update </p>
+
+## GetOptimizedContainersUsingKMeans Method
+The aim of this method is that the clustering of the containers that belong to the specified vehicle is optimized using the K-Means algorithm.
+<p align="center">
+  <img src="https://github.com/195-Patika-Dev-Paycore-Net-Bootcamp/assignment-4-berkdemirciogluu/blob/master/images/swaggerentrance.png"/>
+</p>
+<p align="center"> Figure 6. GetOptimizedContainersUsingKMeans Method </p>
+
 
 
 
